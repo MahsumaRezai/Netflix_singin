@@ -33,10 +33,13 @@
     font-weight: bold; }
   .link-section__link:hover {
     text-decoration-line: underline; }
+  @media screen and (max-width: 1024px) {
+    .link-section {
+      display: none; } }
 
 .main {
   background: white;
-  height: 700px; }
+  height: 600px; }
 
 .main-section {
   display: grid;
