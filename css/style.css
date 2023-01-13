@@ -69,6 +69,8 @@
     height: 70px;
     border: #e50914;
     border-radius: 6px; }
+  .button__btn:hover {
+    background: red; }
   .button__link {
     text-decoration: none;
     color: white;
@@ -85,4 +87,13 @@
   padding-top: 50px;
   width: 80%;
   margin: 0% auto;
-  grid-gap: 5px; }
+  grid-gap: 5px;
+  font-family: sans-serif; }
+  .footer-main__link {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #737373;
+    line-height: 2; }
+  .footer-main__link:hover {
+    text-decoration-line: underline; }
