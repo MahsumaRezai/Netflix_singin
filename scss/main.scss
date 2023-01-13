@@ -4,6 +4,7 @@
     box-sizing: border-box;
 
 }
+
 .head {
     background: white;
     width: 100%;
@@ -11,8 +12,9 @@
     padding-left: 10px;
     height: 90px;
     border-bottom: 1px solid gainsboro;
-
-   
+    @media screen and (max-width:290px) {
+        border-bottom: none;
+       }
 
 }
 .content {
@@ -47,12 +49,21 @@
 .main {
     background: white;
     height: 600px;
+    @media screen  and (max-width:915px){
+        height: 500px;
+        
+    }
+   
 }
 .main-section {
     display: grid;
     justify-content: center;
     align-items: center;
     padding-top: 100px;
+    @media screen  and (max-width:915px){
+        padding-top: 10px;
+        
+    }
 }
 .main-text {
     display: block;
@@ -68,6 +79,11 @@
         font-weight: 600;
         line-height: 1.2;
         padding-bottom: 20px;
+        @media screen  and (max-width:290px){
+            font-size: 15px;
+            
+        }
+        
 
     }
     &__text {
@@ -75,6 +91,9 @@
         line-height: 1.5;
 
     }
+    @media screen and (max-width:290px) {
+        padding-left: 40px;       
+       }
 }
 // button 
 .button {
@@ -85,6 +104,10 @@
         height: 70px;
         border: #e50914;
         border-radius: 6px;
+        @media screen and (max-width:290px) {
+            width: 250px;
+            
+        }
     }
     &__btn:hover {
         background: red;
@@ -101,6 +124,9 @@
 .footer {
     background: #f3f3f3;
     height:160px;
+    @media screen and (max-width:290px) {
+        display: none        
+       }
 }
 .footer-main {
     display: grid;
@@ -110,6 +136,9 @@
     margin: 0% auto;
     grid-gap: 5px;
     font-family: sans-serif;
+    @media screen and (max-width:290px) {
+     display: none        
+    }
     &__link {
     font-family: sans-serif;
     font-size: 14px;

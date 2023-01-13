@@ -10,6 +10,9 @@
   padding-left: 10px;
   height: 90px;
   border-bottom: 1px solid gainsboro; }
+  @media screen and (max-width: 290px) {
+    .head {
+      border-bottom: none; } }
 
 .content {
   display: flex;
@@ -40,12 +43,18 @@
 .main {
   background: white;
   height: 600px; }
+  @media screen and (max-width: 915px) {
+    .main {
+      height: 500px; } }
 
 .main-section {
   display: grid;
   justify-content: center;
   align-items: center;
   padding-top: 100px; }
+  @media screen and (max-width: 915px) {
+    .main-section {
+      padding-top: 10px; } }
 
 .main-text {
   display: block;
@@ -60,9 +69,15 @@
     font-weight: 600;
     line-height: 1.2;
     padding-bottom: 20px; }
+    @media screen and (max-width: 290px) {
+      .main-text__title {
+        font-size: 15px; } }
   .main-text__text {
     font-size: 18px;
     line-height: 1.5; }
+  @media screen and (max-width: 290px) {
+    .main-text {
+      padding-left: 40px; } }
 
 .button {
   padding-top: 20px; }
@@ -72,6 +87,9 @@
     height: 70px;
     border: #e50914;
     border-radius: 6px; }
+    @media screen and (max-width: 290px) {
+      .button__btn {
+        width: 250px; } }
   .button__btn:hover {
     background: red; }
   .button__link {
@@ -83,6 +101,9 @@
 .footer {
   background: #f3f3f3;
   height: 160px; }
+  @media screen and (max-width: 290px) {
+    .footer {
+      display: none; } }
 
 .footer-main {
   display: grid;
@@ -92,6 +113,9 @@
   margin: 0% auto;
   grid-gap: 5px;
   font-family: sans-serif; }
+  @media screen and (max-width: 290px) {
+    .footer-main {
+      display: none; } }
   .footer-main__link {
     font-family: sans-serif;
     font-size: 14px;
