@@ -1,0 +1,23 @@
+// button 
+.button {
+    padding-top: 20px;
+    &__btn {
+        background:#e50914;
+        width: 350px;
+        height: 70px;
+        border: #e50914;
+        border-radius: 6px;
+        @media screen and (max-width:290px) {
+            width: 250px;   
+        }
+    }
+    &__btn:hover {
+        background: red;
+    }
+    &__link  {
+        text-decoration: none;
+        color: white;
+        font-family: sans-serif;
+        font-size: 25px;
+    }
+}
